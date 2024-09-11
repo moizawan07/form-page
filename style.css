@@ -1,0 +1,83 @@
+body{
+    width: 100%;
+   /* background-image: url(https://img.freepik.com/premium-photo/modern-abstract-banner-with-soft-blue-geometric-design-perfect-eyecatching-graphics_1137529-87768.jpg?size=626&ext=jpg&ga=GA1.1.947001471.1717226881&semt=ais_hybrid); */
+   background-image: url(https://img.freepik.com/premium-vector/abstract-light-out-technology-background-hitech-communication-concept-innovation-background-vector-design_116849-1045.jpg?w=1800);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center !important;
+   align-items: center;
+   flex-wrap: wrap;
+   max-width: 1200px !important;
+}
+
+.container{
+    background-color: transparent !important;
+    backdrop-filter: blur(10px) !important;
+    position: relative;
+    top: 85px;
+    width: 55% !important;
+    border: 1px dotted rgb(189, 184, 184);
+    border-radius: 2px;
+    color: white !important;
+    border-radius: 5px;
+}
+
+ button{
+    width: 100% !important;
+ }
+ .btn{
+    display: flex;
+    justify-content: center;
+ }
+ ::placeholder{
+    color: white !important;
+ }
+#userdata{
+    border: 1px dotted white;
+    width: 30%;
+    font-family: sans-serif;
+   background-color: transparent;
+   backdrop-filter: blur(10px);
+   color: white;
+    border-radius: 10px;
+    padding-left: 2%;
+    position: relative;
+    top: 75px;
+}
+ .da{
+    margin-top: 30px;
+    text-align: center;
+ }
+
+ @media (min-width:501px) and (max-width:1140px){
+    .container{
+        top: 0px;
+        margin: auto !important;
+    }
+    body{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 25px;
+    }
+    #userdata{
+        top: 0px;
+        width: 50%;
+    }
+ }
+
+ @media(max-width:500px){
+    .container{
+        width: 75% !important;
+        top: 5px;
+    }
+    body{
+        gap: 35px;
+    }
+    #userdata{
+        top: 0px;
+        width: 60%;
+    }
+ }
